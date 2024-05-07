@@ -8,22 +8,63 @@
 }
 
 @font-face {
+  font-family: "Genova";
+  src: url("../public/typefaces/Genova.otf");
+}
+
+@font-face {
   font-family: "Vanilla";
   src: url("../public/typefaces/Vanilla\ Caramel.otf");
 }
+body{
+  background-color: #F6F9FB;
+}
 
 h1{
-  font-family:'Genova-Medium';
+  color: #000;
+text-align: center;
+font-family: Genova-Medium;
+font-size: 3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
 }
 
 h2{
   font-family:'Made Tommy Soft';
+  font-size: 1.3 em;
 }
 
 h3{
-  font-family: Vanilla;
+  color: #000;
+text-align: center;
+font-family: "Vanilla Caramel";
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
+.largeCardText{
+  color: #000;
+text-align: center;
+font-family: Genova-Medium;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.smallCardText{
+  color: #000;
+text-align: center;
+font-family: "Vanilla Caramel";
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 p{
   font-family: Made Tommy Soft;
 }
@@ -31,6 +72,7 @@ p{
 .App {
   text-align: center;
   background-color: #F6F9FB;
+  padding: 0%;
 }
 
 
@@ -47,8 +89,8 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: black;
+
 }
 
 .App-link {
@@ -75,19 +117,33 @@ p{
 } */
 .caseCard{
   /* height: 400px; */
-  margin: 5%;
+  margin: 0;
   border-radius: 30px;
   height: 55vh;
   width: 40vw;
-  background-color: #61dafb;
+  background-color: #96CBEC;
   display: flex;
   flex-direction: column;
+
+
+}
+
+.cardNav{
+  margin:0%;
+  padding: 0%;
+  color: #000000;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    text-decoration: underline
+  }
 
 }
 
 .container{
   border-radius: 30px;
-  background-color:#61dafb;
+  background-color:#96CBEC;
 }
 
 .cardBottom{
@@ -115,3 +171,110 @@ img{
   max-height: 100%;
   max-width: 100%;
 }
+
+.caseStudies {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card{
+  margin: 5%;
+}
+
+.studyTitle{
+  font-family:Genova;
+  font-size: 4em;
+}
+
+.studySection{
+  font-family:Genova;
+  font-size: 2.25em;
+}
+
+@media only screen and (max-width:1060px) {
+  .landing {
+    background-color: #C5DCE7;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landingImageContainer{
+    height: 39vh;
+    width: 50vw;
+    background-color:#F6F9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .caseStudies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .caseCard{
+  /* height: 400px; */
+  margin: 0;
+  border-radius: 30px;
+  height: 55vh;
+  width: 55vw;
+  background-color: #96CBEC;
+  display: flex;
+  flex-direction: column;
+
+
+}
+}
+
+
+@media only screen and (max-width:700px) {
+  .landing {
+    background-color: #C5DCE7;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landingImageContainer{
+    height: 25vh;
+    width: 50vw;
+    background-color:#F6F9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .caseStudies {
+    display: flex;
+    justify-content: center;
+
+  }
+  .caseCard{
+  /* height: 400px; */
+  margin: 0;
+  border-radius: 30px;
+  height: 55vh;
+  width: 65vw;
+  background-color: #96CBEC;
+  display: flex;
+  flex-direction: column;
+
+
+}
+}
+

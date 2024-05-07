@@ -1,16 +1,36 @@
 import React from "react";
 import Landing from "../components/Landing";
-import CaseStudyCard from "../components/CaseStudyCard"
+import CaseStudyCard from "../components/CaseStudyCard";
+import workData from "../assets/workData.json";
 
 const Home = () => {
   return (
-    <div>
-        <Landing/>
-      <h1>sydney is ready to work</h1>
-
-      <CaseStudyCard name={"Case Study #1"} caseStudy={"warpHome"} description={"this is the warp home"}/>
+    <div className="Page">
+      <Landing />
+      <h1>Work</h1>
+      <div className="caseStudies">
+        {workData.map((study) => (
+          <CaseStudyCard
+            name={study.name}
+            caseStudy={study.caseStudy}
+            description={study.description}
+          />
+        ))}
+      </div>
+      {/* <CaseStudyCard name={"Case Study #1"} caseStudy={"warpHome"} description={"this is the warp home"}/> */}
     </div>
   );
 };
 
 export default Home;
+
+// props.songData.map(function (item) {
+//   const words = item.artist.split(", ");
+//   if (words.length > 1) {
+//     const lastWord = words[words.length - 1];
+//     artists.push(words[0]);
+//     artists.push(lastWord);
+//   } else {
+//     artists.push(words[0]);
+//   }
+// });

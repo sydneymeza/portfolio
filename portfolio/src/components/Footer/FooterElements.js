@@ -6,10 +6,11 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #fbdf7e;
-  height: 75px;
+  height: 9vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 0%;
 //   padding: 0.2rem calc((100vw - 1000px) / 2);
 //   z-index: 12;
 //   position: ;

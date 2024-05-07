@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Warp Home",
+    "description": "warp warp warp",
+    "caseStudy": "warpHome"
+  },
+  {
+    "name": "Menominee Redesign",
+    "description": "redesigned the menominee gov page",
+    "caseStudy": "menomineeRedesign"
+  },
+  {
+    "name": "Mix Mate",
+    "description": "developed with react womp womp",
+    "caseStudy": "mixMate"
+  },
+  {
+    "name": "Work in Progess",
+    "description": "working on it",
+    "caseStudy": "hehe"
+  }
+]
