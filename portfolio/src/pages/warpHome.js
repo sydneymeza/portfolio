@@ -11,7 +11,7 @@ const WarpHome = () => {
       <hr style={{ width: "84vw" }} />
       <p>
         For this project, I worked with the company Warp, on a team of four
-        people, to design a home page based on their project brief. 
+        people, to design a home page based on their project brief.
       </p>
 
       <h2 className="studySection">Overview</h2>
@@ -37,7 +37,12 @@ const WarpHome = () => {
       <p>hifi mockup and then coding</p>
 
       <div className="buttons">
-        <NavLink></NavLink>
+        <NavLink className="caseButton" to="/mixMate">
+          {`<`}- Mix Mate
+        </NavLink>
+        <NavLink className="caseButton" to="/menomineeRedesign">
+          Menominee Redesign -{`>`}
+        </NavLink>
       </div>
     </div>
   );

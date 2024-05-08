@@ -38,8 +38,12 @@ const MixMate = () => {
         each phase look like ....
       </p>
       <div className="buttons">
-        <NavLink>Menominee Redesign</NavLink>
-        <NavLink>Warp Home</NavLink>
+        <NavLink className="caseButton" to="/menomineeRedesign">
+          {`<`}- Menominee Redesign
+        </NavLink>
+        <NavLink className="caseButton" to="/warpHome">
+          Warp Home -{`>`}
+        </NavLink>
       </div>
     </div>
   );

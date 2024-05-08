@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <Nav>
         <NavMenu>
-          <NavLink to="/" activeStyle>
+          <NavLink to="/#work" activeStyle>
             Work
           </NavLink>
           <NavLink to="/about" activeStyle>

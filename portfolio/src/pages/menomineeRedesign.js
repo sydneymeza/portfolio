@@ -42,16 +42,31 @@ const MenomineeRedesign = () => {
         represent what the webiste could look like in three different screen
         sizes, a typical desktop, a vertical Ipad, and a phone screen.{" "}
       </p>
-      <p>A style guide was then created to somewhat math the colors that were on the original website. The changes are noticeable, but I hope that these new colors and style represent the tribe well. </p>
+      <p>
+        A style guide was then created to somewhat math the colors that were on
+        the original website. The changes are noticeable, but I hope that these
+        new colors and style represent the tribe well.{" "}
+      </p>
       <h2 className="studySection">Solution</h2>
       <hr style={{ width: "76vw" }} />
-      <p>Linked here is the redesigned page. It has most of the elements from the style guide and the high fidelity </p>
+      <p>
+        Linked here is the redesigned page. It has most of the elements from the
+        style guide and the high fidelity{" "}
+      </p>
 
       <h2 className="studySection">Key Takeaways</h2>
-      <p>It's important to have accessible sites or sites that can be viewed in many different ways so that everyone can enjoy it. </p>
+      <p>
+        It's important to have accessible sites or sites that can be viewed in
+        many different ways so that everyone can enjoy it.{" "}
+      </p>
 
       <div className="buttons">
-        <NavLink></NavLink>
+        <NavLink className="caseButton" to="/warpHome">
+          {`<`}- Warp Home
+        </NavLink>
+        <NavLink className="caseButton" to="/mixMate">
+          Mix Mate -{`>`}
+        </NavLink>
       </div>
     </div>
   );

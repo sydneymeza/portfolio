@@ -10,15 +10,19 @@ import About from "./pages/about";
 import MenomineeRedesign from "./pages/menomineeRedesign";
 import WarpHome from "./pages/warpHome";
 import MixMate from "./pages/mixMate";
-
+import ScrollToTop from "./components/ScrollToTop";
+import ScrollToAnchor from "./components/ScrollToAnchor";
 
 
 function App() {
   return (
     <Router>
+    <ScrollToTop />
+    <ScrollToAnchor/>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="" />
         <Route path="/about" element={<About />} />
         <Route path="/menomineeRedesign" element={<MenomineeRedesign />} />
         <Route path="/warpHome" element={<WarpHome />} />

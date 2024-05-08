@@ -16,7 +16,7 @@ const Navbar = () => {
               alt="sydney's 'logo' which is her initial + a star graphic"
             ></img>
           </NavLink>
-          <NavLink to="/" activeStyle>
+          <NavLink to="/#work" activeStyle>
             Work
           </NavLink>
           <NavLink to="/about" activeStyle>

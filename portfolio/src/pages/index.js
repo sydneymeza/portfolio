@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="Page">
       <Landing />
-      <h1>Work</h1>
+      <h1 id="work">Work</h1>
       <div className="caseStudies">
         {workData.map((study) => (
           <CaseStudyCard
