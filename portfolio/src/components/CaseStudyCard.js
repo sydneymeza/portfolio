@@ -7,7 +7,7 @@ export default function CaseStudyCard(props) {
       <NavLink className="cardNav" to={"/" + props.caseStudy} activeStyle>
         {/* <p>womp womp</p> */}
         <div className="caseCard">
-          <div className="container">
+          <div className={"container " + props.number}>
             <img className="cardImage" src={process.env.PUBLIC_URL + "/images/" + props.img}></img>
           </div>
 

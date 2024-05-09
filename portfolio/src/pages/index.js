@@ -15,7 +15,7 @@ const Home = () => {
             name={study.name}
             caseStudy={study.caseStudy}
             description={study.description}
-          />
+            number={study.num}/>
         ))}
       </div>
       {/* <CaseStudyCard name={"Case Study #1"} caseStudy={"warpHome"} description={"this is the warp home"}/> */}

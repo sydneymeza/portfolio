@@ -13,7 +13,7 @@ function Landing() {
         <h1>
           Sydney Meza
         </h1>
-        <p>Hi! I'm Sydney an aspiring UIUX designer! <br/> I love color</p>
+        <p>Hi! Sydney is an aspiring UIUX designer! <br/> She wants to dive deep into human centered design, and use her knowledge of coding to help with that! </p>
       </div>
 
     </div>

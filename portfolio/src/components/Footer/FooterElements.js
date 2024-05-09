@@ -6,16 +6,16 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   background: #fbdf7e;
-  height: 9vh;
+  // height: 9vh;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 0%;
-//   padding: 0.2rem calc((100vw - 1000px) / 2);
-//   z-index: 12;
-//   position: ;
-//   bottom: 0;
-//   left: 0;
+  //   padding: 0.2rem calc((100vw - 1000px) / 2);
+  //   z-index: 12;
+  //   position: ;
+  //   bottom: 0;
+  //   left: 0;
 `;
 
 export const NavLink = styled(Link)`
@@ -46,13 +46,14 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-top: 0%;
-  margin-right: -24px;
+  // margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
-  /* width: 100vw;
-white-space: nowrap; */
-  @media screen and (max-width: 768px) {
+   /* width: 100vw;
+  justify-content: space-between;
+  white-space: nowrap;
+  */ @media screen and (max-width: 768px) {
     display: none;
   }
 `;

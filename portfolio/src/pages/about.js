@@ -14,11 +14,11 @@ const About = () => {
           <div className="funfacts">
             <p className="funFact"> I love sewing!</p>
             <p className="funFact">hiking!</p>
-            <p className="funFact">and playing around on figma and illustrator!! </p>
+            <p className="funFact">and playing around on figma and adobe illustrator!! </p>
           </div>
           <div className="actualBio">
             <p>
-              a rising junior at Brown University completing an A.B. in
+              I'm a rising junior at Brown University completing an A.B. in
               Computer Science with a focus on design and a Sc.B in Design
               Engineering.
             </p>
