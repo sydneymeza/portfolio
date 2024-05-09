@@ -23,7 +23,7 @@ const About = () => {
               Engineering.
             </p>
             <p>
-              My passions lie in front end development and UI/UX development. I want to explore and learn more about Human Centered design!
+              My passions lie in UI/UX and frontend development. I want to explore and learn more about human centered design to create memorable experiences!
             </p>
           </div>
         </div>

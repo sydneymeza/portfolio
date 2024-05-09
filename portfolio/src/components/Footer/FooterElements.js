@@ -21,9 +21,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #000000;
   display: flex;
-  align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
 `;
@@ -44,11 +42,11 @@ export const NavLink = styled(Link)`
 
 export const NavMenu = styled.div`
   display: flex;
-  align-items: center;
+  // align-items: center;
   margin-top: 0%;
   // margin-right: -24px;
   /* Second Nav */
-  /* margin-right: 24px; */
+  // /* margin-right: 24px; */
   /* Third Nav */
    /* width: 100vw;
   justify-content: space-between;
