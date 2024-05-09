@@ -20,15 +20,44 @@ body{
   background-color: #F6F9FB;
 }
 
+#caseStudy{
+  
+  background-image: url("../public/images/caseStudyStar.png");
+  margin: 0%;
+  background-color: #F6F9FB;
+  background-size: contain;
+  background-position: center;
+}
+
+#about{
+  background-image: url("../public/images/aboutStar.png");
+  background-color: #F6F9FB;
+  margin: 0%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home{
+  background-image: url("../public/images/homeStar.png");
+  background-color: #F6F9FB;
+  margin: 0%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 h1{
   color: #000;
-text-align: center;
-font-family: Genova-Medium;
-font-size: 3rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: Genova-Medium;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 
+}
+
+#work{
+  text-align: center;
 }
 
 h2{
@@ -38,32 +67,38 @@ h2{
 
 h3{
   color: #000;
-text-align: center;
-font-family: "Vanilla Caramel";
-font-size: 1.625rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  text-align: center;
+  font-family: "Vanilla Caramel";
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .largeCardText{
   color: #000;
-text-align: center;
+text-align: left;
 font-family: Genova-Medium;
 font-size: 2.25rem;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 500;
-line-height: normal;
+/* line-height: normal; */
+  margin-bottom:0;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .smallCardText{
   color: #000;
-text-align: center;
+text-align: left;
 font-family: "Vanilla Caramel";
 font-size: 1.625rem;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 400;
-line-height: normal;
+/* line-height: normal; */
+margin-bottom: 0;
+margin-top: 0;
+margin-left: 5%;
 }
 p{
   font-family: Made Tommy Soft;
@@ -116,11 +151,9 @@ p{
   border-radius:30px;
 } */
 .caseCard{
-  /* height: 400px; */
+  height: 100%;
   margin: 0;
   border-radius: 30px;
-  height: 55vh;
-  width: 40vw;
   background-color: #96CBEC;
   display: flex;
   flex-direction: column;
@@ -129,29 +162,43 @@ p{
 }
 
 .cardNav{
+
   margin:0%;
   padding: 0%;
   color: #000000;
   text-decoration: none;
-  height: 100%;
+  height: 95%;
+  width: 95%;
   cursor: pointer;
   &.active {
     text-decoration: underline
   }
+  
 
 }
 
+
+
+
 .container{
-  border-radius: 30px;
+  border-radius: 30px 30px 0px 0px;
   background-color:#96CBEC;
+  width:100%;
+  height:70%;
+  /* height: 41vh; */
 }
 
 .cardBottom{
-  height: 100px;
+  height: 30%;
   width: 100%; 
-  background-color: #C5DCE7;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  background-color: #96cbec;
   border-radius: 0 0 30px 30px;
   bottom: 0;
+  text-align: left;
 }
 
 .landingImageContainer{
@@ -170,29 +217,122 @@ p{
 img{
   max-height: 100%;
   max-width: 100%;
+  border-radius: 30px;
 }
 
 .caseStudies {
-
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-
 }
 
 .card{
-  margin: 5%;
+  margin: 1%;
+  height: 57vh;
+  width: 42vw;
+
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.card:hover{
+  background-color: #96cbec;
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.25);
+
 }
 
 .studyTitle{
   font-family:Genova;
-  font-size: 4em;
+  font-size: 3em;
+  margin-left:10%;
 }
 
 .studySection{
   font-family:Genova;
   font-size: 2.25em;
+  font-weight: 500;
+  margin-left:15%;
 }
+
+.studyText{
+  margin-left: 15%
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 2%; */
+}
+
+.caseButton{
+  color:black;
+  background-color: #96CBEC;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.workLanding{
+  background-color: #C5DCE7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+}
+
+
+
+.aboutContainer{
+  height: 50vh;
+  width: 23vw;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 5%; */
+
+}
+
+.about{
+  margin: 0%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5%; 
+  padding-bottom: 2.5%; 
+  height: 70.8vh;
+}
+
+.aboutWords{
+  margin: 5%;
+  width: 52vw;
+  
+}
+
+.funFact{
+  font-family: Vanilla;
+  font-size:1.5rem;
+}
+
+.actualBio{
+  font-family: Made Tommy Soft;
+  font-size: 1.5rem;
+}
+
+.cardImage{
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  height:100%;
+
+}
+
+
 
 @media only screen and (max-width:1060px) {
   .landing {
@@ -223,12 +363,16 @@ img{
 
   }
 
+  .card{
+  height: 55vh;
+  width: 55vw;
+  }
+
   .caseCard{
   /* height: 400px; */
   margin: 0;
   border-radius: 30px;
-  height: 55vh;
-  width: 55vw;
+  
   background-color: #96CBEC;
   display: flex;
   flex-direction: column;
@@ -264,12 +408,15 @@ img{
     justify-content: center;
 
   }
+
+  .card{
+    height: 55vh;
+  width: 65vw;
+  }
   .caseCard{
   /* height: 400px; */
   margin: 0;
   border-radius: 30px;
-  height: 55vh;
-  width: 65vw;
   background-color: #96CBEC;
   display: flex;
   flex-direction: column;

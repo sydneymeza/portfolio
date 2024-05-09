@@ -5,12 +5,13 @@ import workData from "../assets/workData.json";
 
 const Home = () => {
   return (
-    <div className="Page">
+    <div className="Page" id="home">
       <Landing />
       <h1 id="work">Work</h1>
       <div className="caseStudies">
         {workData.map((study) => (
           <CaseStudyCard
+            img={study.img}
             name={study.name}
             caseStudy={study.caseStudy}
             description={study.description}

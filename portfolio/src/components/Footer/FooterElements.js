@@ -45,6 +45,7 @@ export const NavLink = styled(Link)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
+  margin-top: 0%;
   margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */

@@ -4,17 +4,28 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="Page">
-      <div className="container"></div>
-      <div className="aboutWords">
-        <h1>Sydney Meza</h1>
-        <div className="funfacts">
-          <p className="funFact"> Loves to sew</p>
-          <p className="funFact">hiking!</p>
-          <p className="funFact">from utah :/</p>
+    <div className="Page" id="about">
+      <div className="about">
+        <div className="aboutContainer">
+          <img src={process.env.PUBLIC_URL + "/images/sydney.JPG"}></img>
         </div>
-        <div className="actualBio">
-            <p>this is where her actual bio would be</p>
+        <div className="aboutWords">
+          <h1>Hello! I'm Sydney Meza</h1>
+          <div className="funfacts">
+            <p className="funFact"> I love sewing!</p>
+            <p className="funFact">hiking!</p>
+            <p className="funFact">and playing around on figma and illustrator!! </p>
+          </div>
+          <div className="actualBio">
+            <p>
+              a rising junior at Brown University completing an A.B. in
+              Computer Science with a focus on design and a Sc.B in Design
+              Engineering.
+            </p>
+            <p>
+              My passions lie in front end development and UI/UX development. I want to explore and learn more about Human Centered design!
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -2,21 +2,25 @@
   {
     "name": "Warp Home",
     "description": "warp warp warp",
-    "caseStudy": "warpHome"
+    "caseStudy": "warpHome",
+    "img": "warp_home_banner.png"
   },
   {
     "name": "Menominee Redesign",
     "description": "redesigned the menominee gov page",
-    "caseStudy": "menomineeRedesign"
+    "caseStudy": "menomineeRedesign",
+    "img": "menominee_redesign_banner.png"
   },
   {
     "name": "Mix Mate",
     "description": "developed with react womp womp",
-    "caseStudy": "mixMate"
+    "caseStudy": "mixMate",
+    "img": "mix_mate_banner.png"
   },
   {
     "name": "Work in Progess",
     "description": "working on it",
-    "caseStudy": "hehe"
+    "caseStudy": "hehe",
+    "img": "warp_home_banner.png"
   }
 ]
