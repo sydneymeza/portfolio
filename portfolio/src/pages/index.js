@@ -15,6 +15,7 @@ const Home = () => {
             name={study.name}
             caseStudy={study.caseStudy}
             description={study.description}
+            skills={study.skills}
             number={study.num}
             able={study.able}/>
         ))}

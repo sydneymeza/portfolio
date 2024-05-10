@@ -243,7 +243,7 @@ img{
 
 .card{
   margin: 1%;
-  height: 57vh;
+  height: 60vh;
   width: 42vw;
   transition: transform .2s;
   border-radius: 30px;
@@ -310,6 +310,14 @@ img{
   border-radius: 30px;
   padding: 1%;
   margin-top: 2%;
+  transition: transform .2s;
+}
+
+.caseButton:hover{
+  background-color: #F6F9FB;
+  color:#96cbec;
+  border: 3px solid #96cbec;
+  transform: scale(1.02);
 }
 
 .workLanding{

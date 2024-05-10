@@ -2,6 +2,7 @@
   {
     "name": "Warp Home",
     "description": "warp warp warp",
+    "skills":"UI/UX, Figma",
     "caseStudy": "warpHome",
     "img": "warp_home_banner.png",
     "num": "one",
@@ -9,7 +10,8 @@
   },
   {
     "name": "Menominee Redesign",
-    "description": "redesigned the menominee gov page",
+    "description": "redesigned the Menominee gov page",
+    "skills": "UI/UX, HTML, CSS, Figma",
     "caseStudy": "menomineeRedesign",
     "img": "menominee_redesign_banner.png",
     "num": "two",
@@ -18,6 +20,7 @@
   {
     "name": "Mix Mate",
     "description": "developed with react womp womp",
+    "skills": "React/JS, UI/UX",
     "caseStudy": "mixMate",
     "img": "mix_mate_banner.png",
     "num": "two",
@@ -26,6 +29,7 @@
   {
     "name": "Work in Progess",
     "description": "working on it",
+    "skills": "UI/UX, Figma",
     "caseStudy": "hehe",
     "img": "mix_mate_banner.png",
     "num": "one",

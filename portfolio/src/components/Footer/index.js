@@ -17,14 +17,11 @@ const Footer = () => {
 
         <div className="contact">
           <h3>Contact me! (pls)</h3>
-          <a
-            href="https://reactrouter.com/en/main/components/link"
-            target="_blank"
-          >
+          <a href="mailto:sydney_meza@brown.edu" target="_blank">
             Email
           </a>
           <a
-            href="https://reactrouter.com/en/main/components/link"
+            href="https://www.linkedin.com/in/sydney-meza-b392072a2/"
             target="_blank"
           >
             LinkedIn
