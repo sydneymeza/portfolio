@@ -108,6 +108,10 @@ p{
   font-family: Made Tommy Soft;
 }
 
+hr{
+  align-self: center;
+}
+
 .App {
   text-align: center;
   background-color: #F6F9FB;
@@ -245,6 +249,7 @@ img{
   margin: 1%;
   height: 60vh;
   width: 42vw;
+  background-color: transparent;
   transition: transform .2s;
   border-radius: 30px;
   display: flex;
