@@ -8,53 +8,75 @@ const MixMate = () => {
         <h1 className="top">Mix Mate</h1>
       </div>
       <h1 className="studyTitle">Mix Mate</h1>
-      <hr style={{ width: "84vw" }} />
+      <hr style={{ width: "84vw", margin: "auto" }} />
+      <h3 className="studyText">Project Focus: Frontend Development</h3>
+      <h3 className="studyText">Tools: React/JS, CSS, Figma </h3>
       <h2 className="studySection">Overview</h2>
-      <hr style={{ width: "76vw" }} />
-      <p className="studyText">created a playlist making website!</p>
-      <h2 className="studySection">Context/Problem</h2>
-      <hr style={{ width: "76vw" }} />
-      <p className="studyText">wanted to learn react</p>
-      <h2 className="studySection">Research</h2>
-      <hr style={{ width: "76vw" }} />
+      <hr style={{ width: "76vw", margin: "auto" }} />
       <p className="studyText">
-        I found sites that uses likes and filters to go through a list of items.
-        I then did a competitive comparison of them. Each website had very
-        different ways to filter and sort through their items. The favoriting
-        functions are also different. While Spotify and Apply Music all store
-        the favorited songs in a playlist that is accessible without filtering,
-        Ed Stem only allows users to filter out any posts that are favorited.
+        This project is about learning how to use React, and also developing
+        skills to analyze different websites to decided what features would be
+        beneficial to add to a new app.{" "}
+      </p>
+      <h2 className="studySection">Research</h2>
+      <hr style={{ width: "76vw", margin: "auto" }} />
+      <p className="studyText">
+        For this project I first started by researching and analyzing different
+        websites that use likes and filters to go through a list of items. I
+        then did a competitive comparison of them.
+      </p>
+      {/* insert table photo */}
+      <p className="studyText">
+        Each website had very different ways to filter and sort through their
+        items. The favoriting functions are also different. While Spotify and
+        Apply Music all store the favorited songs in a playlist that is
+        accessible without filtering, Ed Stem only allows users to filter out
+        any posts that are favorited.
+        <br />
         From these websites, I chose to include features that made the filtering
         and sorting options very visible and intuitive. I also included the
         functionality to combine these so that users can have a less frustrating
-        experience searching for a song. I also decided to implement the design
-        of changing the button whether the post or the item, was favorited or
-        not. Thus letting the user know that it was added and that it can be
-        removed with the same button.
+        experience searching for a song.
+        <br />I also decided to implement the design of changing the button
+        whether the post or the item, was favorited or not. Thus letting the
+        user know that it was added and that it can be removed with the same
+        button.
       </p>
       <h2 className="studySection">Process</h2>
-      <hr style={{ width: "76vw" }} />
+      <hr style={{ width: "76vw", margin: "auto" }} />
       <p className="studyText">
         Since I knew the theme of the website would be around music and adding
         or seeing all the favorite songs. I ultimately decided for the
-        aggregator to be an add-to playlist, as this would allow for multiple
-        iterations of different combinations of music, and someone could reset
-        the playlist to make a new one very easily. From there I drew the
-        following sketches which resulted in the final sketch
-        <br /> I then created a Lofi wire frame on Figma. <br />
+        aggregator to be an add-to the current playlist, as this would allow for
+        multiple iterations of different combinations of music, and someone
+        could reset the playlist to make a new one very easily. From there I
+        drew the following sketches which resulted in the final sketch
+      </p>
+      {/* insert sketch */}
+
+      <p className="studyText">I then created a Lofi wire frame on Figma.</p>
+      {/* inisert lofi */}
+      <p className="studyText">
         To help the high-fidelity prototype come along much easier, I created
         this style guide to help know what colors to use and which fonts to use.
-        <br />
-        After creating the style guide and the Lofi wireframe, the high-fidelity
-        prototype in Figma looks like this. While creating the mockup it was
-        important to think about the different components that would be needed
-        as I would be using React to create this website. Since there were a few
-        moving parts, I decided to make a component for the card itself, a
-        component to hold all the cards and the aggregators, and then a separate
-        component for where each song would be stored and shown to the user.
       </p>
+      {/* inisert lofi */}
+      <p className="studyText">
+        After creating the style guide and the Lofi wireframe, the high-fidelity
+        prototype in Figma looks like this.
+      </p>
+      {/* inisert lofi */}
+      <p className="studyText">
+        While creating the mockup it was important to think about the different
+        components that would be needed as I would be using React to create this
+        website. Since there were a few moving parts, I decided to make a
+        component for the card itself, a component to hold all the cards and the
+        aggregators, and then a separate component for where each song would be
+        stored and shown to the user.
+      </p>
+
       <h2 className="studySection">Solution</h2>
-      <hr style={{ width: "76vw" }} />
+      <hr style={{ width: "76vw", margin: "auto" }} />
       <p className="studyText">
         The current site, which can be viewed here is ultimately what I was able
         to create. There is a limited amount of songs, as I had to transfer data
@@ -66,7 +88,7 @@ const MixMate = () => {
         other.
       </p>
       <h2 className="studySection">Key Takeaways</h2>
-      <hr style={{ width: "76vw" }} />
+      <hr style={{ width: "76vw", margin: "auto" }} />
       <p className="studyText">
         To create an app that would truly be able to keep up with competitors,
         there needs to be some sort of analysis to see if there’s anything new

@@ -33,7 +33,8 @@ const MenomineeRedesign = () => {
       <div className="caseStudyWords">
         <h1 className="studyTitle">Menominee Redesign</h1>
         <hr style={{ width: "84vw", margin: "auto" }} />
-
+        <h3 className="studyText">Project Focus: UI/UX design</h3>
+        <h3 className="studyText">Tools: HTML/CSS, Figma </h3>
         <h2 className="studySection">Overview</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
         <p className="studyText">
@@ -107,6 +108,7 @@ const MenomineeRedesign = () => {
         </p>
 
         <h2 className="studySection">Key Takeaways</h2>
+        <hr style={{ width: "76vw", margin: "auto" }} />
         <p className="studyText">
           Designers should automatically think of designing a responsive website
           Colors may work well together but they won’t always be accessible or
