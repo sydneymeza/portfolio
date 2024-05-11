@@ -460,30 +460,30 @@ carousel-indicator{
   }
 
   .largeCardText{
-  color: #000;
-text-align: left;
-font-family: Genova-Medium;
-font-size: 1.8rem;
-/* font-style: normal; */
-font-weight: 500;
-/* line-height: normal; */
-  margin-bottom:0;
-  margin-top: 5%;
-  margin-left: 5%;
-}
+    color: #000;
+    text-align: left;
+    font-family: Genova-Medium;
+    font-size: 1.8rem;
+    /* font-style: normal; */
+    font-weight: 500;
+    /* line-height: normal; */
+    margin-bottom:0;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
 
-.smallCardText{
-  color: #000;
-text-align: left;
-font-family: "Vanilla Caramel";
-font-size: 1.3rem;
-/* font-style: normal; */
-font-weight: 400;
-/* line-height: normal; */
-margin-bottom: 0;
-margin-top: 0;
-margin-left: 5%;
-}
+  .smallCardText{
+    color: #000;
+    text-align: left;
+    font-family: "Vanilla Caramel";
+    font-size: 1.3rem;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 5%;
+  }
 
 
 
@@ -516,21 +516,22 @@ margin-left: 5%;
   }
 
   .card{
-  height: 55vh;
-  width: 55vw;
+    height: 55vh;
+    width: 55vw;
   }
 
   .caseCard{
   /* height: 400px; */
-  margin: 0;
-  border-radius: 30px;
-  
-  background-color: #96CBEC;
-  display: flex;
-  flex-direction: column;
+    margin: 0;
+    border-radius: 30px;
+    
+    background-color: #96CBEC;
+    display: flex;
+    flex-direction: column;
 
 
-}
+  }
+
 }
 
 
@@ -649,3 +650,25 @@ margin-left: 5%;
 }
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+  /* height: 80px; */
+}
+.nav-links {
+  /* color: white; */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  /* Second Nav */
+  /* margin-right: 24px; */
+  /* Third Nav */
+  /* width: 100vw;
+white-space: nowrap; */
+}
