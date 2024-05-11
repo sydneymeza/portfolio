@@ -1,14 +1,14 @@
 [
   {
     "name": "lofi wireframe for laptop",
-    "img": "menominee_lofi_laptop.png"
+    "img": "/menominee_lofi_laptop.png"
   },
   {
     "name": "lofi wireframe for tablet",
-    "img": "menominee_lofi_tablet.png"
+    "img": "/menominee_lofi_tablet.png"
   },
   {
     "name": "lofi wireframe for phone",
-    "img": "menominee_lofi_phone.png"
+    "img": "/menominee_lofi_phone.png"
   }
 ]

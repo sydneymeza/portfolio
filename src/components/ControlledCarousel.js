@@ -18,7 +18,7 @@ function ControlledCarousel(props) {
               <div className="carousel-photo-container">
                 <img
                   className="carousel-photo"
-                  src={process.env.PUBLIC_URL + "/images/" + item.img}
+                  src={process.env.PUBLIC_URL + "/images" + item.img}
                   alt={item.name}
                   key={index}
                 />

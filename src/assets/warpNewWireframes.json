@@ -1,0 +1,22 @@
+[
+  {
+    "name": "lofi wireframe of the home screen with the sidebar compressed",
+    "img": "/warpPhotos/revisedLofi/lo-fi-main-compressed.png"
+  },
+  {
+    "name": "lofi wireframe of the main home page",
+    "img": "/warpPhotos/revisedLofi/lo-fi-main.png"
+  },
+  {
+    "name": "lofi wireframe of the new users home page",
+    "img": "/warpPhotos/revisedLofi/lo-fi-new.png"
+  },
+  {
+    "name": "lofi wireframe of the team admin's home page",
+    "img": "/warpPhotos/revisedLofi/lo-fi-team-admin.png"
+  },
+  {
+    "name": "lofi wireframe of the team member's home page",
+    "img": "/warpPhotos/revisedLofi/lo-fi-team-member.png"
+  }
+]

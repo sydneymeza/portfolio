@@ -1,7 +1,43 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ControlledCarousel from "../components/ControlledCarousel";
+import sketches from "../assets/warpSketches.json";
+import firstLofi from "../assets/warpNewWireframes.json";
+import styleGuide from "../assets/warpStyleGuide.json"
+import firstHifi from "../assets/warpFirstHifi.json";
+import secondHifi from "../assets/warpExtraCredit.json";
 
 const WarpHome = () => {
+
+  var sketchList = [];
+  sketches.map(function (item) {
+    sketchList.push({
+      img: item.img,
+      name: item.name
+    });
+  });
+
+  var lofiList = [];
+  firstLofi.map(function (item) {
+    lofiList.push({ img: item.img, name: item.name });
+  });
+
+  var firstHifiList = [];
+  firstHifi.map(function (item) {
+    firstHifiList.push({ img: item.img, name: item.name });
+  });
+
+  var styleList = [];
+  styleGuide.map(function (item) {
+    styleList.push({ img: item.img, name: item.name });
+  });
+
+  var secondHifiList = [];
+  secondHifi.map(function (item) {
+    secondHifiList.push({ img: item.img, name: item.name });
+  });
+
+
   return (
     <div className="Page" id="caseStudy">
       <div className="workLanding">
@@ -13,6 +49,7 @@ const WarpHome = () => {
       <h3 className="studyText">Tools: Figma </h3>
       <h2 className="studySection">Overview</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         For this project, my team and I worked with the company Warp to design a
         home page based on their project brief. We received feedback on our
@@ -21,18 +58,22 @@ const WarpHome = () => {
       </p>
       <h2 className="studySection">Context/Problem</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
-        To summarize the project brief, Wapr does not have a centralized home
+        To summarize the project brief, Warp does not have a centralized home
         page for users to view information about their files, team, usage,
         account, and learn more about Warp. Currently, a lot of this information
         is in the settings page, which makes it difficult to find.
       </p>
       <h2 className="studySection">Process</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         We first created sketches to explore different layouts for the screen
         and modules (components on the screen).
       </p>
+      <br />
+      <ControlledCarousel data={sketchList} />
       <br />
       <p className="studyText">
         We then created our first iteration wireframes. We combined most of our
@@ -67,7 +108,9 @@ const WarpHome = () => {
           their drive and what they see on the sidebar.{" "}
         </li>
       </p>
-      {/* insert new wireframes here */}
+      <br />
+      <ControlledCarousel data={lofiList} />
+      <br />
       <p className="studyText">
         From the feedback we received, we revised our wireframes. Here are the
         changes we made
@@ -90,7 +133,8 @@ const WarpHome = () => {
         design we created.
       </p>
       <br />
-      {/* carousel of styleguide */}
+      <ControlledCarousel data={styleList} />
+      <br />
 
       <p className="studyText">
         We also checked the Warp brand with the WCAG AA guidelines and found
@@ -100,16 +144,19 @@ const WarpHome = () => {
       </p>
       <br />
 
-      <p className="studyText"></p>
+      <p className="studyText">
+        Here are screenshots of the high fidelity prototype that we were able to
+        show the Warp designers. They gave us wonderful feedback so we could go
+        back and iterate one last time.{" "}
+      </p>
+      <br />
+      <ControlledCarousel data={firstHifiList} />
       <br />
       {/* got feedback from warp designers */}
 
       <h2 className="studySection">Solution</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
-      <p className="studyText">
-        Our project focuses on depicting the design of the home page based on
-        the user state and the various actions that they can take.
-      </p>
+      <br />
 
       <p className="studyText">
         After our final feedback from the Warp designers here are the changes
@@ -124,11 +171,12 @@ const WarpHome = () => {
         </li>
         <li>Labeled ‘Activity’ to ‘Recent Activity’</li>
       </p>
-
-      {/* insert carousel of extra credit photos */}
-
+      <br />
+      <ControlledCarousel data={secondHifiList} />
+      <br />
       <h2 className="studySection">Key Takeaways</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         Designing as a team and interacting with real clients in order to
         achieve a design goal. Overall, communication was a huge part of this

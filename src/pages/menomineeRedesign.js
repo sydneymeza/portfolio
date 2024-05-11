@@ -33,21 +33,31 @@ const MenomineeRedesign = () => {
       <div className="caseStudyWords">
         <h1 className="studyTitle">Menominee Redesign</h1>
         <hr style={{ width: "84vw", margin: "auto" }} />
+        <br />
         <h3 className="studyText">Project Focus: UI/UX design</h3>
         <h3 className="studyText">Tools: HTML/CSS, Figma </h3>
         <h2 className="studySection">Overview</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
-          I chose to redesign the Menominee Indian Tribe's website{" "}
+          When browsing the internet there will be times when a user comes
+          across a site where navigating it is not easy. To develop my skills as
+          a designer, I found it important to redesign one of these websites to
+          have it become more intuitive and easy to navigate. I practiced the
+          design process for this project and coded a simple website to be
+          responsive and accessible.
         </p>
 
         <h2 className="studySection">Context/Problem</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
           The Menominee Indian tribe, while the information is up to date with
           current events, does not a responsive or super accessible website.
         </p>
+        <br />
         <ControlledCarousel data={researchList} />
+        <br />
 
         <p className="studyText">
           As I inspected the code I also noticed that there wasn’t an alt tag
@@ -57,6 +67,7 @@ const MenomineeRedesign = () => {
 
         <h2 className="studySection">Research</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
           In class, I learned about generally good and bad design practices. And
           why certain things are good. Like how a good designer would make a
@@ -68,6 +79,7 @@ const MenomineeRedesign = () => {
 
         <h2 className="studySection">Process</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
           I started off by quickly drawing nine sketches, all with different
           layouts. I then created one final sketch on which I could base the
@@ -79,6 +91,7 @@ const MenomineeRedesign = () => {
           thinking to create a layout for the phone screen. Created 3 Lofi
           wireframes to represent the three different sizes that I could design
           for.
+          <br />
           <ControlledCarousel data={lofiList} />
           <br />
           It was a bit hard to create the style guide. I knew what color I
@@ -94,10 +107,12 @@ const MenomineeRedesign = () => {
           After creating the style guide, I was able to utilize the Lofi
           wireframes to create the three high-fidelity mockups within Figma.
         </p>
-
+        <br />
         <ControlledCarousel data={hifiList} />
+        <br />
         <h2 className="studySection">Solution</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
           The current site, which can be viewed here is ultimately what I was
           able to create. The changes I was able to implement did mostly match
@@ -109,6 +124,7 @@ const MenomineeRedesign = () => {
 
         <h2 className="studySection">Key Takeaways</h2>
         <hr style={{ width: "76vw", margin: "auto" }} />
+        <br />
         <p className="studyText">
           Designers should automatically think of designing a responsive website
           Colors may work well together but they won’t always be accessible or

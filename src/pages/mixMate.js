@@ -1,7 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ControlledCarousel from "../components/ControlledCarousel";
+import chart from "../assets/mixChart.json";
+import hifi from "../assets/mixHifi.json";
+import lofi from "../assets/mixLofi.json";
+import sketches from "../assets/mixSketches.json";
+import styleGuide from "../assets/mixStyleGuide.json";
 
 const MixMate = () => {
+
+  var sketchList = [];
+  sketches.map(function (item) {
+    sketchList.push({ img: item.img, name: item.name });
+  });
+
+
   return (
     <div className="Page" id="caseStudy">
       <div className="workLanding">
@@ -9,10 +22,12 @@ const MixMate = () => {
       </div>
       <h1 className="studyTitle">Mix Mate</h1>
       <hr style={{ width: "84vw", margin: "auto" }} />
+      <br />
       <h3 className="studyText">Project Focus: Frontend Development</h3>
       <h3 className="studyText">Tools: React/JS, CSS, Figma </h3>
       <h2 className="studySection">Overview</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         This project is about learning how to use React, and also developing
         skills to analyze different websites to decided what features would be
@@ -20,12 +35,19 @@ const MixMate = () => {
       </p>
       <h2 className="studySection">Research</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         For this project I first started by researching and analyzing different
         websites that use likes and filters to go through a list of items. I
         then did a competitive comparison of them.
       </p>
-      {/* insert table photo */}
+      <div className="carousel-photo-container">
+        <img
+          src={process.env.PUBLIC_URL + "/images" + chart.img}
+          alt={chart.name}
+        />
+      </div>
+      <br />
       <p className="studyText">
         Each website had very different ways to filter and sort through their
         items. The favoriting functions are also different. While Spotify and
@@ -44,6 +66,7 @@ const MixMate = () => {
       </p>
       <h2 className="studySection">Process</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         Since I knew the theme of the website would be around music and adding
         or seeing all the favorite songs. I ultimately decided for the
@@ -53,19 +76,40 @@ const MixMate = () => {
         drew the following sketches which resulted in the final sketch
       </p>
       {/* insert sketch */}
-
+      <br />
+      <ControlledCarousel data={sketchList} />
+      <br />
       <p className="studyText">I then created a Lofi wire frame on Figma.</p>
-      {/* inisert lofi */}
+      <div className="carousel-photo-container">
+        <img
+          src={process.env.PUBLIC_URL + "/images" + lofi.img}
+          alt={lofi.name}
+        />
+      </div>
+      <br />
       <p className="studyText">
         To help the high-fidelity prototype come along much easier, I created
         this style guide to help know what colors to use and which fonts to use.
       </p>
-      {/* inisert lofi */}
+      {/* inisert style guide*/}
+      <div className="carousel-photo-container">
+        <img
+          src={process.env.PUBLIC_URL + "/images" + styleGuide.img}
+          alt={styleGuide.name}
+        />
+      </div>
+      <br />
       <p className="studyText">
         After creating the style guide and the Lofi wireframe, the high-fidelity
         prototype in Figma looks like this.
       </p>
-      {/* inisert lofi */}
+      <div className="carousel-photo-container">
+        <img
+          src={process.env.PUBLIC_URL + "/images" + hifi.img}
+          alt={hifi.name}
+        />
+      </div>
+      <br />
       <p className="studyText">
         While creating the mockup it was important to think about the different
         components that would be needed as I would be using React to create this
@@ -77,6 +121,7 @@ const MixMate = () => {
 
       <h2 className="studySection">Solution</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         The current site, which can be viewed here is ultimately what I was able
         to create. There is a limited amount of songs, as I had to transfer data
@@ -89,6 +134,7 @@ const MixMate = () => {
       </p>
       <h2 className="studySection">Key Takeaways</h2>
       <hr style={{ width: "76vw", margin: "auto" }} />
+      <br />
       <p className="studyText">
         To create an app that would truly be able to keep up with competitors,
         there needs to be some sort of analysis to see if there’s anything new
