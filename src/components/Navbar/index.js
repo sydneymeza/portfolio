@@ -40,14 +40,14 @@ const Navbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-          <NavLink
-            to="/#work"
-            onClick={closeMobileMenu}
-            activeStyle
-            className="nav-links"
-          >
-            Work
-          </NavLink>
+            <NavLink
+              to="/#work"
+              onClick={closeMobileMenu}
+              activeStyle
+              className="nav-links"
+            >
+              Work
+            </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a
-              href="https://reactrouter.com/en/main/components/link"
+              href={process.env.PUBLIC_URL + "/sydney_meza_resume.pdf"}
               target="_blank"
               onClick={closeMobileMenu}
               className="nav-links"

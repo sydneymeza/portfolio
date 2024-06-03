@@ -38,7 +38,7 @@ const Footer = () => {
           </NavLink>
 
           <a
-            href="https://reactrouter.com/en/main/components/link"
+            href={process.env.PUBLIC_URL + "/sydney_meza_resume.pdf"}
             target="_blank"
           >
             Resume
