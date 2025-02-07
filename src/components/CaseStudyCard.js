@@ -21,8 +21,8 @@ export default function CaseStudyCard(props) {
 
           <div className="cardBottom">
             <h1 className="largeCardText">{props.name}</h1>
+            <h3 className="smallCardTextSkills">{props.skills}</h3>
             <h3 className="smallCardText">{props.description}</h3>
-            <h3 className="smallCardText">{props.skills}</h3>
           </div>
         </div>
       </NavLink>

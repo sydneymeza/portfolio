@@ -57,6 +57,33 @@ h1{
 
 }
 
+.landingp{
+  color: #000;
+  font-family: Genova;
+  margin-right: 5%;
+  font-size: 1.2rem;
+}
+.landingH{
+  /* font-family:"Abril Fatface", sans-serif; */
+  background: linear-gradient(to right, rgb(103, 20, 220),rgb(222, 175, 239),pink);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  transition: color .2s ease-in-out;
+  text-transform:uppercase;
+  font-weight:900;
+}
+.landingH:hover{
+  color:rgba(0,0,0,0);
+}
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
+
 #work{
   text-align: center;
 }
@@ -73,6 +100,7 @@ h2{
 h3{
   color: #000;
   text-align: center;
+  margin: 1%;
   font-family: "Vanilla Caramel";
   font-size: 1.625rem;
   font-style: normal;
@@ -82,12 +110,12 @@ h3{
 
 .largeCardText{
   color: #000;
-text-align: left;
-font-family: Genova-Medium;
-font-size: 2.25rem;
-/* font-style: normal; */
-font-weight: 500;
-/* line-height: normal; */
+  text-align: left;
+  font-family: Genova-Medium;
+  font-size: 2rem;
+  /* font-style: normal; */
+  font-weight: 500;
+  /* line-height: normal; */
   margin-bottom:0;
   margin-top: 5%;
   margin-left: 5%;
@@ -95,15 +123,29 @@ font-weight: 500;
 
 .smallCardText{
   color: #000;
-text-align: left;
-font-family: "Vanilla Caramel";
-font-size: 1.625rem;
-/* font-style: normal; */
-font-weight: 400;
-/* line-height: normal; */
-margin-bottom: 0;
-margin-top: 0;
-margin-left: 5%;
+  
+  text-align: left; 
+  font-family: "Vanilla Caramel";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+.smallCardTextSkills{
+
+  color: #3d3d3d;
+  text-align: left;
+  font-family: "Vanilla Caramel";
+  font-size: 1.125rem;
+  /* font-style: normal; */
+  font-weight: 400;
+  /* line-height: normal; */
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-left: 5%; 
 }
 p{
   font-family: Made Tommy Soft;
@@ -134,6 +176,8 @@ hr{
   align-items: center;
   justify-content: center;
   color: black;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 
@@ -154,36 +198,27 @@ hr{
 
 /* styling for card */
 
-/* .cardNav{
-  width:30%;
-  background-color: #61dafb;
-  border-radius:30px;
-} */
 .caseCard{
-  height: 100%;
+  /* height: 100%; */
+  height: 60vh;
+  width: 42vw;
   margin: 0;
   border-radius: 30px;
   background-color: #96CBEC;
   display: flex;
   flex-direction: column;
 
-
 }
 
 .cardNav{
-
   margin:0%;
   padding: 0%;
   color: #000000;
   text-decoration: none;
-  height: 95%;
-  width: 95%;
   cursor: pointer;
   &.active {
     text-decoration: underline
   }
-  
-
 }
 
 
@@ -192,8 +227,8 @@ hr{
 .container{
   border-radius: 30px 30px 0px 0px;
   
-  width:100%;
-  height:70%;
+  /* width:100%; */
+  height:65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,7 +243,7 @@ hr{
 }
 
 .cardBottom{
-  height: 30%;
+  height: 10%;
   width: 100%; 
   display: flex;
   flex-direction: column;
@@ -222,7 +257,8 @@ hr{
 
 .landingImageContainer{
   height: 39vh;
-  width: 21vw;
+  /* width: 21vw; */
+  width:30%;
   background-color:#F6F9FB;
   display: flex;
   justify-content: center;
@@ -231,6 +267,12 @@ hr{
 }
 .landingWords{
   margin: 2.5%;
+  height: 39vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 img{
@@ -247,10 +289,10 @@ img{
 }
 
 .card{
-  margin: 1%;
+  margin: 3%;
+  padding:0;
   height: 60vh;
   width: 42vw;
-  background-color: transparent;
   transition: transform .2s;
   border-radius: 30px;
   display: flex;
@@ -261,12 +303,11 @@ img{
 
 
 .card:hover{
-  background-color: #96cbec;
-  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.25); 
   transform: scale(1.05);
 }
 
-.disable{
+/* .disable{
   transition:none;
 }
 
@@ -275,8 +316,8 @@ img{
   box-shadow: none;
   transform: none;
   background-color: #F6F9FB;
-  
-}
+   */
+/* } */
 
 .studyTitle{
   font-family:Genova;
@@ -310,6 +351,7 @@ img{
 .caseButton{
   color:black;
   background-color: #96CBEC;
+  border: 3px solid #96cbec;
   text-decoration: none;
   border-radius: 30px;
   padding: 1%;
@@ -319,7 +361,7 @@ img{
 
 .caseButton:hover{
   background-color: #F6F9FB;
-  color:#96cbec;
+  color:#6c93ab;
   border: 3px solid #96cbec;
   transform: scale(1.02);
 }
@@ -448,8 +490,11 @@ carousel-indicator{
     }
   }
   .landingWords{
+    margin-top:0%;
     margin-left: 20%;
     margin-right: 20%;
+    height: 10vh;
+    margin-bottom: 5%;
     h1{
       font-size:1.5rem;
     }
@@ -489,7 +534,7 @@ carousel-indicator{
 
   .landing {
     background-color: #C5DCE7;
-    min-height: 70vh;
+    min-height: 60vh;
     align-items: center;
     justify-content: center;
     color: black;
@@ -522,6 +567,8 @@ carousel-indicator{
 
   .caseCard{
   /* height: 400px; */
+    height: 55vh;
+    width: 55vw;
     margin: 0;
     border-radius: 30px;
     
@@ -563,11 +610,11 @@ carousel-indicator{
 
   .largeCardText{
   color: #000;
-text-align: left;
-font-family: Genova-Medium;
-font-size: 1.4rem;
-/* font-style: normal; */
-font-weight: 500;
+  text-align: left;
+  font-family: Genova-Medium;
+  font-size: 1.4rem;
+  /* font-style: normal; */
+  font-weight: 500;
 /* line-height: normal; */
   margin-bottom:0;
   margin-top: 5%;
@@ -576,16 +623,16 @@ font-weight: 500;
 
 .smallCardText{
   color: #000;
-text-align: left;
-font-family: "Vanilla Caramel";
-font-size: 1rem;
-/* font-style: normal; */
-font-weight: 400;
-/* line-height: normal; */
-margin-bottom: 0;
-margin-top: 0;
-margin-left: 5%;
-}
+  text-align: left;
+  font-family: "Vanilla Caramel";
+  font-size: 1rem;
+  /* font-style: normal; */
+  font-weight: 400;
+  /* line-height: normal; */
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 5%;
+  }
   .footer{
   margin-top: 2%;
   padding-bottom: 2%;
@@ -610,7 +657,7 @@ margin-left: 5%;
 
   .landing {
     background-color: #C5DCE7;
-    min-height: 70vh;
+    min-height: 40vh;
     align-items: center;
     justify-content: center;
     color: black;
@@ -636,10 +683,12 @@ margin-left: 5%;
 
   .card{
     height: 55vh;
-  width: 65vw;
+    width: 65vw;
   }
   .caseCard{
   /* height: 400px; */
+  height: 55vh;
+  width: 65vw;
   margin: 0;
   border-radius: 30px;
   background-color: #96CBEC;

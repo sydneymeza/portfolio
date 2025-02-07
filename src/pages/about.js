@@ -18,12 +18,12 @@ const About = () => {
           </div>
           <div className="actualBio">
             <p>
-              I'm a rising junior at Brown University completing an A.B. in
+              I'm a junior at Brown University completing an A.B. in
               Computer Science with a focus on design and a Sc.B in Design
               Engineering.
             </p>
             <p>
-              My passions lie in UI/UX and frontend development. I want to explore and learn more about human centered design to create memorable experiences!
+              My passions lie in UI/UX and frontend development. I want to explore and learn more about human centered design to create memorable experiences! I have also started to explore more of 3D and AR design!
             </p>
           </div>
         </div>

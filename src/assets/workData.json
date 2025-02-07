@@ -1,7 +1,7 @@
 [
   {
     "name": "Warp Home",
-    "description": "warp warp warp",
+    "description": "Worked collaboratively on a team to effectively communicate with a client as well as building experience with the iterative design process.",
     "skills":"UI/UX, Figma",
     "caseStudy": "warpHome",
     "img": "warp_home_banner.png",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Menominee Redesign",
-    "description": "redesigned the Menominee gov page",
+    "description": "Evaluated an existing website for accessibilty, responsiveness, and usabilty to redesign with better principoles.",
     "skills": "UI/UX, HTML, CSS, Figma",
     "caseStudy": "menomineeRedesign",
     "img": "menominee_redesign_banner.png",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Mix Mate",
-    "description": "developed with react womp womp",
+    "description": "Created a functional aggregator in REACT along with building the skill of competitive analysis",
     "skills": "React/JS, UI/UX",
     "caseStudy": "mixMate",
     "img": "mix_mate_banner.png",
@@ -27,12 +27,12 @@
     "able": "able"
   },
   {
-    "name": "Work in Progess",
-    "description": "working on it",
+    "name": "Brown Motion Pictures Webstie",
+    "description": "Worked collaboratively on a team to design a website for a film for a specified client",
     "skills": "UI/UX, Figma",
-    "caseStudy": "hehe",
-    "img": "mix_mate_banner.png",
+    "caseStudy": "BMP",
+    "img": "bmp_banner.png",
     "num": "one",
-    "able": "disable"
+    "able": "able"
   }
 ]

@@ -196,8 +196,8 @@ const WarpHome = () => {
       </p>
 
       <div className="buttons">
-        <NavLink className="caseButton" to="/mixMate">
-          {`<`}- Mix Mate
+        <NavLink className="caseButton" to="/bmp">
+          {`<`}- Brown Motion Pictures Website
         </NavLink>
         <NavLink className="caseButton" to="/menomineeRedesign">
           Menominee Redesign -{`>`}
